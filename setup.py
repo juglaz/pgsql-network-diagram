@@ -1,11 +1,5 @@
 from setuptools import setup
 
-setup(
-    name='pgsql-network-diagram',    # This is the name of your PyPI-package.
-    version='0.1',                          # Update the version number for new releases
-    scripts=['sql_pipeline_diagram']                  # The name of your scipt, and also the command you'll be using for calling it
-)
-
 setup(name='pgsql-network-diagram',
       description='Parses SQL and builds an interactive table relational diagram using vis.js. Built on sqlparse and focused on PostgreSQL.',
       long_description='Parses SQL and builds an interactive table relational diagram using vis.js. Built on sqlparse and focused on PostgreSQL.',
